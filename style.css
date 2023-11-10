@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f7f7f7;
+}
+
+select{
+    transform: translateY(60px);
+    font-size: 20px;
+    padding: 5px;
+    background-color: rgb(199, 57, 114);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+select option:hover{
+    background-color: aqua;
+}
+
+img{
+    width: 100%;
+}
+
+p{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #444;
+}
+
+h2{
+    text-align: center;
+}
+
+.card{
+    width: 300px;
+    transform: translateY(50%);
+    box-shadow: 0 20px 50px rgb(165, 164, 164);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.content_text{
+    padding: 15px;
+    display: grid;
+    gap: 10px;
+}
+
+.content_text > div{
+    display: flex;
+    justify-content: space-between;
+}   
+
+
+
